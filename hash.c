@@ -12,7 +12,6 @@ int main(){
         scanf("%lld %lld %lld %lld %lld %lld %lld",&a,&b,&x,&n,&c,&d,&m);
                 while(s <= n){
                     h =((a*(x+s)+b)%m);
-                    printf("%llu",h);
                     if(h>=c && h<=d){
                         counter = counter + 1;
                     } 
